@@ -29,7 +29,7 @@
 <body>
 
 <h2>Weekly Schedule</h2>
-
+<h4> Life of graveyard shift</h4>
 <table>
 <tr>
     <th>Time Slot</th>
@@ -53,13 +53,13 @@
 </tr>
 <tr>
     <td>Afternoon</td>
-    <td>Work</td>
-    <td>Meeting</td>
-    <td>Work</td>
-    <td>Meeting</td>
-    <td>Work</td>
-    <td>Shopping</td>
-    <td></td>
+    <td>Bootcamp</td>
+    <td>Bootcamp</td>
+    <td>Bootcamp</td>
+    <td>Bootcamp</td>
+    <td>Bootcamp</td>
+    <td>Playing online games</td>
+    <td>Grocery</td>
 </tr>
 <tr>
     <td>Evening</td>
@@ -75,18 +75,73 @@
 
 <h2>HTML Forms</h2>
 
-<form action="/action_page.php">
+<style>
+    
+ 
+    input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
 
-  <label for="name">Name:</label>
-    <input type="text" id="name" name="name" value="Rica" required><br><br>
-  <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required> <br><br>
-    <label for="feedback">Feedback:</label>
-    <textarea id="feedback" name="feedback" rows="4" required></textarea>
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+        
+    }
+
+    input[type="button"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    input[type="button"]:hover {
+        background-color: #0056b3;
+        
+    }
+
+
+</style>
+
+<div id=" form- container">
+    <form action="/action_page.php">
+    <div class="form-group">
+      <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="Rica" required></div>
+<br><br>
+<div class = "form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required> </div>
   <br><br>
-  <input type="submit" value="Submit">
+  <div class = "form-group">
+     <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback" rows="4" required></textarea>
+  <br><br></div>
+
+  <div class = "form-group" >
+    <label>How did you find out about our product/service? </label><br>
+    <input type="radio" id="social-media" name="source" value="Social Media">
+    <label for="social-media">Social Media</label>
+    <input type="radio" id="word-of-mouth" name="source" value="Word of Mouth">
+    <label for="word-of-mouth">Television</label>
+    <input type="radio" id="advertisement" name="source" value="Advertisement">
+    <label for="advertisement">Word of Mouth</label>
+  </div>
+ 
+    <br><br>
+    <div class = "form-group">
+        <input type="submit" value="Submit">
   <input type="button" value="Cancel">
+    </div>
+ 
 </form> 
+</div>
 
 
 </body>
