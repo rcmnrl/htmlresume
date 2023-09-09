@@ -4,32 +4,95 @@
     <meta charset="UTF-8">
 <title>HTML Elements and Forms</title>
 
-<h1>ONE PIECE</h1>
-<br>
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.animenewsnetwork.com%2Freview%2Fone-piece%2Fepisode-947%2F.165577&psig=AOvVaw2gVSuwtdhUobx0ZrsoT0cW&ust=1694350229094000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJjsk9HInYEDFQAAAAAdAAAAABAE"
- alt="Luffy Gear 5" width="104" height="142">
-
-
  <style>
+
+    h4, h1{
+        text-align: center;
+            margin-top: 20px;
+    }
     table {
         width: 80%;
         border-collapse: collapse;
         margin: 20px auto;
     }
+
+    tr :hover 
+    {background-color: rgb(74, 106, 165);}
+
     th, td {
         border: 1px solid #dddddd;
         text-align: left;
         padding: 8px;
+        
     }
     th {
-        background-color: #f2f2f2;
+        background-color: #7078c3;
     }
+
+    
+    h2 {
+            text-align: center;
+            margin-top: 20px;
+            color: #0056b3;
+        }
+
+        .container {
+            background-color: #c4caf5;
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .form-group {
+            margin-bottom: -10px;
+        }
+    input[type="submit"] {
+        background-color: #1784f8;
+        color: #fff;
+        border: none;
+        padding: 10px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+        
+    }
+
+    input[type="button"] {
+        background-color: #1784f8;
+        color: #fff;
+        border: none;
+        padding: 10px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    input[type="button"]:hover {
+        background-color: #0056b3;
+        
+    }
+
 </style>
 </head>
 <body>
+<h1 style="color: darkblue;">ONE PIECE</h1>
+<br>
+<div style="text-align: center;">
+    <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t39.30808-6/338406389_228262166437536_3236343356738188316_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeFaCNXT8q9DoXxzyRlYLD78W9oFLPL0H-Nb2gUs8vQf49SPY7_3_v3d5jwoLFyrR1U96LXm-F2gAXpYb5N3nRH5&_nc_ohc=CwKyQvZryDIAX9VUc0_&_nc_ht=scontent.fmnl25-4.fna&oh=00_AfAn9EuGuE6924M-qwQvrXfhQhEui847x4-W5LtT6WKR1A&oe=65029370"
+    alt="Zoro" width="350" height="250">
+    <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t39.30808-6/366082800_836536707840587_7411622493471523374_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeEJMml5-ikEZiqfk0-aU3fqHyyT_W4dQOYfLJP9bh1A5iv8RALqAyg-5Ubr4qsDmUbfuZm_NIUd0c-Om1pr2pqw&_nc_ohc=gUT5j9YeQ2cAX9ZE-xM&_nc_ht=scontent.fmnl25-1.fna&oh=00_AfBkQRqPoJZnwbWDodWYuaT6b3e0CLQ19EjYkOxlNtmRZQ&oe=6500BE7F"
+    alt="Luffy " width="350" height="250">
+   
+    <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.6435-9/82289047_749147609162350_2484500488972594784_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=825194&_nc_eui2=AeGpvpceAqQ22S9fKZahxZWBj7iA0yIWG6-PuIDTIhYbr-xg31cU49DfKf2x5-eCFCUN-cnGRD0MKJTxde8I1UQu&_nc_ohc=h3TbZBzQcx8AX_pgRsx&_nc_ht=scontent.fmnl25-1.fna&oh=00_AfCdox73JViz1RrqWKL-MJJGmkk8nyW8fX7CwoWL0fxyow&oe=65240BCD"
+    alt="Sanji" width="350" height="250"></div>
 
-<h2>Weekly Schedule</h2>
-<h4> Life of graveyard shift</h4>
+
+<h2 >Weekly Schedule </h2>
+<h4> <i>Life of graveyard shift</i></h4>
+
 <table>
 <tr>
     <th>Time Slot</th>
@@ -73,59 +136,27 @@
 </tr>
 </table>
 
-<h2>HTML Forms</h2>
-
-<style>
-    
- 
-    input[type="submit"] {
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 3px;
-        cursor: pointer;
-    }
-
-    input[type="submit"]:hover {
-        background-color: #0056b3;
-        
-    }
-
-    input[type="button"] {
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 3px;
-        cursor: pointer;
-    }
-
-    input[type="button"]:hover {
-        background-color: #0056b3;
-        
-    }
+<h2>Form</h2>
 
 
-</style>
 
-<div id=" form- container">
+<div class="container">
     <form action="/action_page.php">
     <div class="form-group">
       <label for="name">Name:</label>
-        <input type="text" id="name" name="name" value="Rica" required></div>
+        <input type="text" id="name" name="name"  placeholder="your full name" required></div>
 <br><br>
 <div class = "form-group">
     <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required> </div>
+    <input type="email" id="email" name="email"  placeholder="@domain.com" required> </div>
   <br><br>
   <div class = "form-group">
      <label for="feedback">Feedback:</label>
-    <textarea id="feedback" name="feedback" rows="4" required></textarea>
-  <br><br></div>
-
+    <textarea id="feedback" name="feedback" placeholder="Write something.." rows="4" required></textarea>
+  </div>
+  <br><br>
   <div class = "form-group" >
-    <label>How did you find out about our product/service? </label><br>
+    <label>How did you find out about our product/service? </label><br><br>
     <input type="radio" id="social-media" name="source" value="Social Media">
     <label for="social-media">Social Media</label>
     <input type="radio" id="word-of-mouth" name="source" value="Word of Mouth">
